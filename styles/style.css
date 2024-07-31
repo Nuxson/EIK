@@ -4,11 +4,7 @@
 	box-sizing: border-box;
 	margin: 0px;
 }
-img {
-	background-color: #527fe6;
-	border-radius: 100%;
-	padding: px;
-}
+
 body {
 	height: 100vh;
 	font-family: "Inter", sans-serif;
@@ -27,4 +23,13 @@ body {
 	display: flex;
 }
 button {
+	border: none;
+	padding: 6px;
+	color: white;
+	border-radius: 8px;
+	background-color: #333333;
+}
+button:hover {
+	border: #527fe6 solid 1px;
+	color: #527fe6;
 }
