@@ -15,21 +15,58 @@ body {
 	background-color: #000000;
 	color: #fefefe;
 }
-.container {
+.wrapper {
+	width: 1280px;
+	height: 780px;
 }
 .header {
+	display: flex;
+	padding: 16px;
+	justify-content: space-between;
 }
+#menu__icon{
+	padding: 12px;
+	border-radius: 50px;
+	background-color: #527fe6;
+}
+.verticalline{
+	width: 2;
+	height: 50;
+	border-radius: 8px;
+	border-left: 2px solid #333333
+}
+.menu{
+	display: flex;
+	justify-content: space-between;
+	width: 322px;
+	height: 48px;
+}
+
 .slider {
 	display: flex;
+	justify-content: space-between;
+	padding: 0 16px 0 16px;
 }
 button {
-	border: none;
-	padding: 6px;
+	border: #333333 solid 1px;
+	padding: 6px 12px 6px 12px;
 	color: white;
+	font-size: 16px;
+	font-weight: 700;
 	border-radius: 8px;
 	background-color: #333333;
 }
 button:hover {
 	border: #527fe6 solid 1px;
+	color: #527fe6;
+}
+.content{
+	padding: 0 16px 0 16px
+}
+.content__text{
+	display: flex;
+	flex-direction: column;
+}
+.content__next{
 	color: #527fe6;
 }
